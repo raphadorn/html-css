@@ -1,0 +1,7 @@
+Google fonts 
+É uma biblioteca online com centenas de fontes gratuitas que você pode usar no seu site sem precisar instalar nada. Basta conectar e aplicar via CSS.
+•	Acesse Google Fonts.
+•	Escolha uma fonte.
+•	Copie o link de importação de <link> e cole na área <head> do HTML, ou;
+•	Copie o link de importação de @import e cole na área <style> do CSS
+•	Indique a fonte no CSS

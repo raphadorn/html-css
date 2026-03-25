@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(190, 187, 187);
+            margin: 0;
+        }
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+        nav {
+            background-color: rgb(128, 124, 124);
+            padding: 3px;
+            box-shadow: 4px 5px 1px rgb(0, 0, 0);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+            
+        }
+
+        footer {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align: left;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px
+        }
+
+    </style>
+    <!-- fazer um site de forma semântica tags semânticas aqui em baixo, essas tags são "div" especiais, são "divs" semântica-->
+</head>
+<body>
+      <header>
+        <h1>Meu site</h1>
+          <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </nav>
+      </header>
+      <main>
+          <section id="assuntos">
+              <p>Esportes Política Tecnologia</p>
+          </section>
+          <section id="noticias">
+                <h2>Notícia sobre o Brasil</h2>
+                <article>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis in maxime, placeat veritatis delectus sint enim inventore voluptatum error voluptas expedita! Libero officiis itaque asperiores omnis temporibus a nulla cumque!</p>
+
+                     <aside>
+                         <p>Artigo escrito por <strong>José da Silva</strong></p>
+                     </aside>
+
+                 </article>
+                 <article>
+
+                 </article>
+          </section>
+      </main>
+      <footer>
+          <p>Desenvolvido pelo Cursoemvideo</p>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+   <style>
+    @font-face {
+        font-family: 'Brunson' ;
+        src: url(Brunson.ttf) format('opentype');
+        font-weight: normal;
+        font-style: normal;
+
+        /* 
+        Tipos de format()
+        - opentype
+        - truetype
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+        
+        */
+    }
+
+    body {  
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-family:'Brunson', Times, serif;
+        font-size: 3em;
+    }
+   </style>
+
+</head>
+
+
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sunt magni alias praesentium quibusdam vel pariatur rem nobis totam sapiente libero suscipit corporis quam modi necessitatibus, repudiandae blanditiis iure amet!</p>
+
+</body>
+</html>
